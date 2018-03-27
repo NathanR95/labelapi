@@ -6,7 +6,7 @@ import json
 
 def retrieve(stmt):
     #create connection
-    conn = psdb.connect(dbname='webshopdb', user='postgres', host='localhost', password='k03tj3sr33p')
+    conn = psdb.connect(dbname='webshopdb', user='postgres', host='localhost', password='nopass')
     cur = conn.cursor()
     cur.execute(stmt)
     rows=cur.fetchall()
