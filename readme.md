@@ -1,6 +1,6 @@
-##Label A assignment
+## Label A assignment
 
-####Instructions:
+#### Instructions:
 
 * Clone this repo
 * Create virtualenv
@@ -11,5 +11,5 @@
     * Create new database
     * Open query tool, and run create_table.sql
 * Open app.py
-    * Configure db connection according to own db name/user/passw
+    * Configure db connection according to own db name/user/passw (lines 9, 22)
 * Run python app.py
